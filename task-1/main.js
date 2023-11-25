@@ -96,7 +96,7 @@ const persons = [
     //  console.log(gitConnectPersons)
   
 //   3. Sort by name
-      
+    //   persons.sort((a,b))
 //   4. Sort by gender
         
   
