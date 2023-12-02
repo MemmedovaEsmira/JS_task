@@ -36,64 +36,63 @@ const persons = [
   
 //   1. Get the array of all names
 
-// const gitConnectPersons = persons.map(
+// const getConnectPersons = persons.map(
 //     (i) =>`name-${i.name} `
 // );
-// console.log(gitConnectPersons);
+// console.log(getConnectPersons);
 
 
 
 //   2. Get the array of all heights
 
-// const gitConnectPersons = persons.map(
+// const getConnectPersons = persons.map(
 //     (i) =>`height-${i.height} `
 // );
-// console.log(gitConnectPersons);
+// console.log(getConnectPersons);
   
 //   3. Get the array of objects with just name and height properties
 
-// const gitConnectPersons = persons.map(
+// const getConnectPersons = persons.map(
 //     (i) =>`name-${i.name}   height-${i.height}`
 // );
-// console.log(gitConnectPersons);
+// console.log(getConnectPersons);
 
 //   4. Get the array of all first names
+fullPersonNames = persons.map( person =>  { return `${person.firstName} ${person.lastName}` } )
+console.log(getConnectPersons)
 
-  
-
-  
   
 //   **FILTER**
   
 //   1. Get characters with a mass greater than 100
-    //  const gitConnectPersons = persons.filter ((item)=>item.mass > 100) 
-    // console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.filter ((item)=>item.mass > 100) 
+    // console.log(getConnectPersons)
   
 //   2. Get characters with a height of less than 200
-    //  const gitConnectPersons = persons.filter ((item)=>item.height < 200) 
-    //  console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.filter ((item)=>item.height < 200) 
+    //  console.log(getConnectPersons)
   
 //   3. Get all male characters 
-    //  const gitConnectPersons = persons.filter ((item)=>item.gender==`male`) 
-    //  console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.filter ((item)=>item.gender==`male`) 
+    //  console.log(getConnectPersons)
 
 
 //   4. Get all female characters
-    //  const gitConnectPersons = persons.filter ((item)=>item.gender==`female`) 
-    //  console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.filter ((item)=>item.gender==`female`) 
+    //  console.log(getConnectPersons)
   
   
   
 //   **SORT**
   
 //   1. Sort by mass
-    //  const gitConnectPersons = persons.sort((a, b) =>a.mass-b.mass);
-    //  console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.sort((a, b) =>a.mass-b.mass);
+    //  console.log(getConnectPersons)
 
   
 //   2. Sort by height
-    //  const gitConnectPersons = persons.sort((a, b) =>a.height-b.height);
-    //  console.log(gitConnectPersons)
+    //  const getConnectPersons = persons.sort((a, b) =>a.height-b.height);
+    //  console.log(getConnectPersons)
   
 //   3. Sort by name
     //   persons.sort((a,b))
@@ -105,17 +104,17 @@ const persons = [
 //   **EVERY**
   
 //   1. Does every character have blue eyes?
-    //  const gitConnectPersons = persons.every ((item)=>item.eye_color==`blue`)
-    //  console.log(gitConnectPersons);
+    //  const getConnectPersons = persons.every ((item)=>item.eye_color==`blue`)
+    //  console.log(getConnectPersons);
   
 //   2. Does every character have a mass of more than 40?
-    // const gitConnectPersons = persons.every ((item)=>item.mass>40)
-    // console.log(gitConnectPersons);
+    // const getConnectPersons = persons.every ((item)=>item.mass>40)
+    // console.log(getConnectPersons);
   
 //   3. Is every character shorter than 200?
-    // const gitConnectPersons = persons.every ((item)=>item.height>200)
-    // console.log(gitConnectPersons);
+    // const getConnectPersons = persons.every ((item)=>item.height>200)
+    // console.log(getConnectPersons);
 
 //   4. Is every character male?
-    // const gitConnectPersons = persons.every ((item)=>item.gender=="male")
-    // console.log(gitConnectPersons);
+    // const getConnectPersons = persons.every ((item)=>item.gender=="male")
+    // console.log(getConnectPersons);
