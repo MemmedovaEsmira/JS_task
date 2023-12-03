@@ -95,10 +95,13 @@ console.log(getConnectPersons)
     //  console.log(getConnectPersons)
   
 //   3. Sort by name
-    //   persons.sort((a,b))
+        // const getConnectPersons =  persons.sort((a,b) => a.name.localeCompare(b.name));
+        // console.log(getConnectPersons)
+       
 //   4. Sort by gender
-        
-  
+        // const getConnectPersons =  persons.sort((a,b) => a.gender.localeCompare(b.gender));
+        // console.log(getConnectPersons)
+
   
   
 //   **EVERY**

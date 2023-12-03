@@ -1,10 +1,13 @@
+"use strict"
+
 // #### Task 1: Function Basics
 // 1.1 Create a function named `greetUser` that takes a user's name as an argument and prints a personalized greeting.
 
-// function greetUser(name) {
-//     console.log();
-// }
-//   greetUser("");
+function greetUser(name) {
+    return "hello"
+}
+  console.log(greetUser(name))
+
 
 
 // 1.2 Write a function `calculateArea` that calculates and returns the area of a rectangle. The function should take the length and width as parameters.
@@ -25,9 +28,9 @@
 // 2.2 Implement a function `reverseArray` that reverses the elements of an array. Test it with both numeric and string arrays.
 
 // 2.3 Write a function `filterEvenNumbers` that takes an array of numbers and returns a new array containing only the even numbers.
-let arr = [5,6,8];
-arr.filter((item) => item % 2 === 0);
-console.log(arr(filter));
+// let arr = [5,6,8];
+// arr.filter((item) => item % 2 === 0);
+// console.log(arr(filter));
 
 // #### Task 3: Object and Methods
 // 3.1 Define an object   `person` with properties `name`, `age`, and `city`. Write a function `displayPersonInfo` that prints the information in a readable format.
