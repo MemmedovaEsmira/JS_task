@@ -58,8 +58,8 @@ const persons = [
 // console.log(getConnectPersons);
 
 //   4. Get the array of all first names
-fullPersonNames = persons.map( person =>  { return `${person.firstName} ${person.lastName}` } )
-console.log(getConnectPersons)
+// fullPersonNames = persons.map( person =>  { return `${person.firstName} ${person.lastName}` } )
+// console.log(getConnectPersons)
 
   
 //   **FILTER**

@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* task-1 */
+/* button{
+width: 80px;
+height: 30px;
+border: 1px solid black;
+border-radius: 4px;
+background-color: aqua;
+} */
+
+
+/* task-2 */
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: aqua; 
+    width: 400px;
+    height: 250px;
+}
+
+.buttons{
+    width: 400px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.displayCount{
+    font-size: 80px;
+    padding: 20px 0px;
+    text-align: center;
+}
+button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.increment{
+    background-color: blue;
+}
+.reset{
+    background-color: red;
+}
+
+.decrement{
+    background-color: green; 
+} */
+
+
+
+/* task-3 */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.img{
+    width: 500px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.img { display: none; }
+.visible { display: block; }
