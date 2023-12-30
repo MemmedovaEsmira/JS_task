@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":"FURNITURE",
+        "price": 200,
+        "image": "./image/image1.png"
+    },
+    {
+        "id": 2,
+        "name":"FURNITURE",
+        "price": 250,
+        "image": "./image/image2.png"
+    },
+    {
+        "id": 3,
+        "name":"FURNITURE",
+        "price": 300,
+        "image": "./image/image3.png"
+    },
+    {
+        "id": 4,
+        "name":"FURNITURE",
+        "price": 400,
+        "image": "./image/image4.png"
+    },
+    {
+        "id": 5,
+        "name":"FURNITURE",
+        "price": 450,
+        "image": "./image/image5.png"
+    },
+    {
+        "id": 6,
+        "name":"FURNITURE",
+        "price": 600,
+        "image":"./image/image6.png"
+    },
+    {
+        "id": 7,
+        "name":"FURNITURE",
+        "price": 100,
+        "image":"./image/image7.png"
+    },
+    {
+        "id": 8,
+        "name":"FURNITURE",
+        "price": 500,
+        "image":"./image/image8.png"
+}
+
+]
