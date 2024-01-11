@@ -5,6 +5,11 @@ let iconCartSpan = document.querySelector('.icon-cart span');
 let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
 
+let notice = document.querySelector(".notice");
+let itemButton = document.querySelector(".listProduct .item button");
+let noticeClose = document.querySelector('.noticeClose');
+
+
 let products = [];
 let cart = [];
 
@@ -15,6 +20,15 @@ iconCart.addEventListener('click', () => {
 closeCart.addEventListener('click', () => {
     body.classList.remove('showCart');
 })
+
+
+// itemButton.addEventListener('click', () => {
+//     body.classList.toggle('.notice');
+// });
+
+// noticeClose.addEventListener('click', () => {
+//     body.classList.remove('.notice');
+// })
 
     const addDataToHTML = () => {
   
@@ -149,3 +163,6 @@ const changeQuantityCart = (product_id, type) => {
 })
 
 initApp();
+
+
+
