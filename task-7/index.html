@@ -1,31 +1,14 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    
-    <script src="./main.js"></script> 
-</body>
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <title>Form Validator</title>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
       <form id="form" class="form">
-        <h2>Register With Us</h2>
         <div class="form-control">
           <label for="username">Username</label>
           <input type="text" id="username" placeholder="Enter username" />
@@ -58,7 +41,44 @@
 
         <button>Submit</button>
       </form>
-    </div>
-    <script src="main.js"></script>
+    </div> -->
+     <div class="container">
+      <form  id="form">
+        <!-- <h1>Registration</h1> -->
+        <div class="input-control">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Enter username">
+          <div class="error"></div>
+        </div>
+      
+        <div class="input-control">
+          <label for="password">Password</label>
+          <input id="password"  type="password" placeholder="Enter password">
+          <div class="error"></div>
+        </div>
+     
+
+        <div class="input-control">
+          <label for="check"> Remember me </label> 
+          <input type="checkbox" id="check">
+          <div class="error"></div>
+      </div>
+      
+      <div class="input-control">
+        <label for="toogle"> Remember me </label> 
+          <input type="radio" id="toogle">
+          <div class="error"></div>
+      </div>
+      
+
+
+        <button type="submit"> Sign Up</button>
+      </form>
+     </div>
+    
+    
+    
+    
+     <script src="main.js"></script>
  </body>
 </html>
